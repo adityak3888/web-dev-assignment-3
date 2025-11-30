@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body id="top">
+    <!-- Header -->
+    <header class="site-header">
+        <div class="container header-inner">
+            <div class="logo">My Portfolio</div>
+            <nav class="main-nav">
+                <a href="#hero">Home</a>
+                <a href="#skills">Skills</a>
+                <a href="#projects">Projects</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero">
+            <div class="container hero-inner">
+                <div class="hero-text">
+                    <p class="hero-intro">Hi, I am</p>
+                    <h1 class="hero-title">Full Stack Developer</h1>
+                    <p class="hero-subtitle">
+                        Building modern web applications with MERN stack.
+                    </p>
+                </div>
+                <div class="hero-image">
+                    <img src="profileimg.JPG"
+                         alt="Illustration of a full stack web developer"
+                         width="260" height="260">
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section about">
+            <div class="container">
+                <h2>About Me</h2>
+                <p>
+                    Hello! My name is Aditya kumar. I am currently learning web development.
+                    This is my portfolio website where I showcase my passion for creating
+                    interactive and responsive web pages. I am a beginner but eager to grow,
+                    keep practicing HTML, CSS, JavaScript, and modern frameworks. I love
+                    designing clean interfaces and writing maintainable code.
+                </p>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <div class="container">
+                <h2>My Skills</h2>
+                <div class="grid skills-grid">
+                    <article class="card skill-card">
+                        <h3>HTML</h3>
+                        <p>Beginner</p>
+                    </article>
+                    <article class="card skill-card">
+                        <h3>CSS</h3>
+                        <p>Beginner</p>
+                    </article>
+                    <article class="card skill-card">
+                        <h3>JavaScript</h3>
+                        <p>Learning</p>
+                    </article>
+                    <article class="card skill-card">
+                        <h3>React</h3>
+                        <p>Learning</p>
+                    </article>
+                    <article class="card skill-card">
+                        <h3>Git &amp; GitHub</h3>
+                        <p>Beginner</p>
+                    </article>
+                    <article class="card skill-card">
+                        <h3>Responsive Design</h3>
+                        <p>Learning</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="section">
+            <div class="container">
+                <h2>My Projects</h2>
+                <div class="grid projects-grid">
+                    <article class="card project-card">
+                        <h3>Project 1</h3>
+                        <p>A simple HTML &amp; CSS landing page.</p>
+                    </article>
+                    <article class="card project-card">
+                        <h3>Project 2</h3>
+                        <p>Responsive portfolio layout using Flexbox &amp; Grid.</p>
+                    </article>
+                    <article class="card project-card">
+                        <h3>Project 3</h3>
+                        <p>Sample JavaScript mini project with DOM interactions.</p>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section contact">
+            <div class="container">
+                <h2>Contact Me</h2>
+                <form>
+                    <div class="form-group">
+                        <label for="name">Name</label>
+                        <input id="name" name="name" type="text"
+                               placeholder="Enter your name" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input id="email" name="email" type="email"
+                               placeholder="Enter your email" required>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="message">Message</label>
+                        <textarea id="message" name="message" rows="4"
+                                  placeholder="Write your message" required></textarea>
+                    </div>
+
+                    <button type="submit" class="btn-primary">Send</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>&copy; 2025 John Doe. All rights reserved.</p>
+            <div class="footer-links">
+                <a href="#top">Back to Top</a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
